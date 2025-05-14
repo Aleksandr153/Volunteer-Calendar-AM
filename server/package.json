@@ -1,8 +1,7 @@
 {
   "name": "server",
   "scripts": {
-    "start": "node server.js" // ← Запятая после скобки scripts не нужна!
-  }, // ← Здесь должна быть запятая
+    "start": "node server.js"  }, // ← Здесь должна быть запятая
   "dependencies": {
     "axios": "^1.9.0",
     "bcryptjs": "^2.4.3",
