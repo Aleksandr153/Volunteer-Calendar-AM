@@ -1,8 +1,8 @@
 {
   "name": "server",
   "scripts": {
-    "start": "node server.js" // Добавьте этот скрипт!
-  },
+    "start": "node server.js" // ← Запятая после скобки scripts не нужна!
+  }, // ← Здесь должна быть запятая
   "dependencies": {
     "axios": "^1.9.0",
     "bcryptjs": "^2.4.3",
@@ -15,4 +15,4 @@
     "nodemailer": "^6.10.1",
     "openai": "^4.97.0"
   }
-}
+}                              // ← Добавьте закрывающую скобку
