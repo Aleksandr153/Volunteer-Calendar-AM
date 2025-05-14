@@ -1,0 +1,9 @@
+{
+  "builds": [
+    {
+      "src": "server/package.json",
+      "use": "@railway/node",
+      "config": { "include": [ "server" ] }
+    }
+  ]
+}

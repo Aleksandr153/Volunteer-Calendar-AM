@@ -1,4 +1,8 @@
 {
+  "name": "server",
+  "scripts": {
+    "start": "node server.js" // Добавьте этот скрипт!
+  },
   "dependencies": {
     "axios": "^1.9.0",
     "bcryptjs": "^2.4.3",
@@ -10,8 +14,5 @@
     "node-schedule": "^2.1.1",
     "nodemailer": "^6.10.1",
     "openai": "^4.97.0"
-  },
-  "devDependencies": {
-    "webpack-dev-server": "^4.15.1"
   }
 }
